@@ -80,9 +80,8 @@
 - 2024년 3~4월에는 긍정과 부정 리뷰 모두 증가했는데, 특히 부정 리뷰가 급격히 많아짐.
 - 이 구간은 사용자 불만이 집중된 **이상 탐지 시점**으로 볼 수 있음.
 
-<p align="center">
-  <img src="images/sentiment_trend.png" alt="긍정/부정 리뷰 변화 추이" width="600"/>
-</p>
+![431181955-05a1ed6d-63a0-4111-9c73-67e69e5d3339](https://github.com/user-attachments/assets/0ba1ae7f-d42a-4d5f-8b8f-aad9549ec71d)
+
 
 ---
 
