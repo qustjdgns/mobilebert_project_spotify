@@ -143,17 +143,15 @@
 
 - Python (Pandas, Numpy, Matplotlib)
 - HuggingFace Transformers (MobileBERT)
-- Google Colab / GPU
-- Google Play Review Scraper
-
+- GPU 기반 학습 
 ---
 
 ## 📎 관련 이미지 삽입 위치 안내
 
-- 이미지1: 전체 리뷰 수 시계열 그래프
-- 이미지2: 긍정/부정 리뷰 변화 그래프
-- 이미지3: 앱 버전별 리뷰 수 분포
-- 이미지4: Loss / Accuracy 학습 곡선
+
+- 이미지1: 긍정/부정 리뷰 변화 그래프
+- 이미지1: 앱 버전별 리뷰 수 분포
+- 이미지3: Loss / Accuracy 학습 곡선
 
 ---
 
