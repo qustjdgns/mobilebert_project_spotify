@@ -57,11 +57,11 @@
 
 ### 2.2 학습 성능
 
-| Epoch | Training Loss | Train Acc | Validation Acc |
-|-------|----------------|-----------|----------------|
-| 1     | 0.48           | 85.3%     | 83.2%          |
-| 2     | 0.31           | 91.0%     | 88.4%          |
-| 3     | 0.24           | 93.5%     | 89.1%          |
+Epoch 1: Train Loss: 59238.9887, Train Accuracy: 0.9319, Validation Accuracy: 0.9123
+Epoch 2: Train Loss: 0.2823, Train Accuracy: 0.9512, Validation Accuracy: 0.9176
+Epoch 3: Train Loss: 0.2252, Train Accuracy: 0.9637, Validation Accuracy: 0.9164
+Epoch 4: Train Loss: 0.1803, Train Accuracy: 0.9673, Validation Accuracy: 0.9149
+
 
 > 📊 *[이미지4: Loss / Accuracy 그래프]*
 
