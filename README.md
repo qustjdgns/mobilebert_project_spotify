@@ -51,9 +51,13 @@
 
 ### 2.1 모델 개요
 
-- 사용 모델: **MobileBERT (HuggingFace Transformers 기반)**
-- Task: Binary Sentiment Classification (긍정 / 부정)
-- 사전 학습된 MobileBERT를 파인튜닝하여 감성 분석용으로 활용
+- 모델: MobileBERT (HuggingFace Transformers 기반)
+
+- 태스크: 이진 감성 분류 (긍정 / 부정)
+
+- 사전 학습된 MobileBERT 모델을 기반으로 감성 분석 태스크에 맞게 파인튜닝하여 사용했습니다.
+- 리뷰 텍스트를 입력으로 받아 긍정 또는 부정으로 분류하는 모델입니다.
+- MobileBERT는 경량화된 BERT 계열 모델로, 적은 자원으로도 빠르고 효율적인 추론이 가능합니다.
 
 ### 2.2 학습 성능
 
