@@ -23,7 +23,16 @@
   - **score**: 사용자가 부여한 평점 (1~5점)
   - **at**: 사용자가 리뷰를 작성한 날짜 
   - **appVersion**: 사용자가 사용한 버전 (1~5점)
-- 위 데이터를 특수기호 특수문자 한글 공백 제거하는 전처리 과정 진행 
+- 위 데이터를 특수기호 특수문자 한글 공백 제거하는 전처리 과정 진행
+  # 2. score 1~2 → 1, 4~5 → 0, 3 제거
+df = df[df['score'] != 3]
+df['score'] = df['score'].apply(lambda x: 1 if x <= 2 else 0)
+
+# 3. content 영어+공백만 남기고 나머지 제거
+df['content'] = df['content'].apply(lambda x: re.sub(r'[^a-zA-Z\s]', '', str(x)))
+
+# ✅ 4. 비어 있거나 공백뿐인 content 제거
+df = df[df['content'].str.strip() != '']
 
 ### 1.2 감정 레이블 정의 및 라벨링
 
